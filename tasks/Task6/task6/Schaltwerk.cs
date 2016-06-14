@@ -6,6 +6,7 @@ using Newtonsoft.Json;
 
 namespace lesson6
 {
+    [JsonObject(MemberSerialization.Fields)]
     class Schaltwerk : IBike
     {
 
